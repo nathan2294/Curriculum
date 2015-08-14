@@ -15,7 +15,32 @@
         <p>
 
             <?php
+                function divisible($integer){
+                    //$counter=0;
+                    for ($number=1; $number<=100; $number ++)
+                    {
+                    
+                        if ($number % $integer==0)
+                        {
+                            $counter ++;
+                            echo $number;
+                            echo "<br/>";
+                            
+                        }
+                        
+                    }
+                    return $counter;
+                }
+            
+                echo "This list of numbers is divisible by 3: ";
+                echo "<br/>";
+                divisible(3);
 
+                
+                echo "This list of numbers is divisible by 6: ";
+                echo "<br/>";
+                divisible(6);
+                echo "Total numbers: $counter";
 
                 // code goes here ...
 

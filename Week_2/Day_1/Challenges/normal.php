@@ -19,9 +19,21 @@
 	<?php
 
 		// code goes here ...
+		for ($m=1; $m<=12; $m++) {
+     		$month = date('F', mktime(0,0,0,$m, 1,date('Y')));
+     		$firstcha=substr($month,0,1);
+     		$len=strlen($month);
+     				
+     			if ($firstcha == "J"){
 
+     				echo "$m - $month - $len";
+     				echo "<br/>";	
+     			}
+     				
+     			}
 
 	?>
 </p>
 </body>
 </html>
+

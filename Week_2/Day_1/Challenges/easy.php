@@ -14,6 +14,12 @@
             <?php
 
           	    // code goes here ...
+          	    while($rand != 7)
+          	    {
+          	      $rand= rand(1,7);
+          	      echo $rand;
+          	      echo "<br/>";
+          	    }
 
             ?>
         </p>
