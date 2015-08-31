@@ -1,0 +1,17 @@
+/* Visual Styles
+
+Use only CSS to accomplish making the following style changes:
+    
+    1 - add a class and ID to all of the top level children of the main <body> tag (*choose whatever you want, ID's can only be used once)
+
+    2 - make the headline text uppercase, aligned to the right, italic, and using the font-family Helvetica
+
+    3 - give the subheadline a box-shadow, background-color of black, and give it a border radius of at least 2px
+
+    4 - for the paragraphs in the first div, add a class to each paragraph; then center the first 2 paragraphs and make the last one justified
+
+    5 - for the unordered list, make the leading dot a circle and give each dot at least 5px padding to it's right
+
+    6 - for the ordered list, make each list item a block so that they stack
+
+ */
