@@ -1,15 +1,15 @@
-/* Display Styles
+/* Visual Styles
 
-Use only CSS to accomplish making the following style changes:
+Make the following markup and style changes:
     
-    1 - make the main <h1> headline and <h2> headline sit on the same line together
+    1 - add a class to all of the top level children of the main <body> tag (*choose whatever you want)
 
-    2 - add 3 movies to the Nerdy Movies list, and then hide "Star Wars" *without adding a class to the individual list items 
+    2 - make the headline text uppercase, aligned to the right, italic, and using the font-family Helvetica
 
-    3 - for the individual paragraphs in the first div, for the first paragraph: make the background yellow when you hover over it;
+    3 - give the subheadline a background-color of green, text color of white, a 2px grooved white border, and a border radius of at least 2px
 
-    4 - append a headline tag (any level besides h1) to the end of the paragraphs in the first div element, and make it sit on same line as text from last paragraph
+    4 - for the paragraphs in the first div, add a unique class to each paragraph; then center the first 2 paragraphs and make the last one justified
 
-    5 - give that headline a 1px border, background-color, and padding of at least 10px on left and right sides
+    5 - for the unordered list, make the leading dot/circle a hollow circle and create a space of 5px padding between the circle and text
 
  */
