@@ -1,0 +1,16 @@
+.toggle {
+    margin-bottom: 20px;
+}
+
+.toggle__title {
+    cursor: pointer;
+}
+
+.toggle__content {
+    display: none;
+    padding-top: 10px;
+}
+
+.toggle--open .toggle__content {
+    display: block;
+}
