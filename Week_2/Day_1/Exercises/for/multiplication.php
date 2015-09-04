@@ -12,7 +12,16 @@
                 // 1 x 1 = 1
                 // 1 x 2 = 2
                 // etc
-
+                for ($integer=1; $integer<=12; $integer++)
+                {
+                    for ($i=1; $i<=12;$i++)
+                    {
+                        $value =$integer*$i;
+                        echo "$integer x $i =$value";
+                        echo "<br/>";
+                    }
+                    
+                }
         
             ?>
 

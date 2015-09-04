@@ -14,7 +14,7 @@
         */
        
         // food you are looking up
-        $food = '';
+        $food = 'grape';
         $age = '6';
 
         // Fruits

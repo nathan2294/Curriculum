@@ -12,7 +12,16 @@
 
                 // code goes here ...
 
-
+                foreach($intArray as $array)
+                {
+                    if ($array <0)
+                    {
+                        echo "Numbers less than 0:<br/>";
+                        echo $array;
+                        echo "<br/>";
+                    }
+                    // DOnn't need else
+                }
 
 
             ?>
