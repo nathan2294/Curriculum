@@ -1,0 +1,43 @@
+<!-- 
+    Task: 
+        Create tabbed content with atleast 3 tabs.
+
+    Useful Links:
+            https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName
+            https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+            https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Code2Hire - Week 6 Day 2 - Exercise 4</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="tabbed">
+            
+            <ul class="tabbed_navigation">
+                
+                <li class="tabbed_navigation_item" data-num="1">Celio</li>
+                <li class="tabbed_navigation_item" data-num="2">Alex</li>
+                <li class="tabbed_navigation_item" data-num="3">Nathan</li>
+                    
+            </ul>
+            <div class="tabbed_content js-tabbed-content">
+                
+                <div class ="tabbed_content_item is-active" data-num="1">
+                    Celio is an alright guy.
+                </div>
+                <div class ="tabbed_content_item" data-num="2">
+                    Alex is teaching this class.
+                </div>
+                <div class ="tabbed_content_item" data-num="3">
+                    Nathan is tall.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

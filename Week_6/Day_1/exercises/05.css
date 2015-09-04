@@ -46,6 +46,7 @@ Make the following style changes:
         - remove the styling for the social links like above for the nav links
 
  */
+<<<<<<< HEAD
 body{
     box-sizing:border-box;
     background-color:#000;
@@ -71,3 +72,5 @@ h2{
 .page{
    width:100%;
 }
+=======
+>>>>>>> upstream/master

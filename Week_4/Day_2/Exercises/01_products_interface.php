@@ -4,7 +4,11 @@
   </head>
   <body>
     <p>
+<<<<<<< HEAD
     <?php
+=======
+    <?
+>>>>>>> upstream/master
         /**
          * OVERVIEW:
          * Let's attempt to build a clone of Amazon.com
@@ -55,6 +59,7 @@
         ///////////////////////////
         // Put your code here!
         ///////////////////////////
+<<<<<<< HEAD
         
         interface Describable {
           public function provideDescription(); 
@@ -88,6 +93,9 @@
          * Color: Eye-piercingly bright red
          * Type: Shirt
          * Gender: Male
+=======
+        ?>
+>>>>>>> upstream/master
     </p>
   </body>
 </html>

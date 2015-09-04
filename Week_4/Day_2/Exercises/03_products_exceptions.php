@@ -4,7 +4,11 @@
   </head>
   <body>
     <p>
+<<<<<<< HEAD
     <?php
+=======
+    <?
+>>>>>>> upstream/master
         /**
          * OVERVIEW:
          * So our boss is now happy that he can see the descriptions in a consistent manner.
@@ -73,6 +77,7 @@
         ///////////////////////////
         // Put your code here!
         ///////////////////////////
+<<<<<<< HEAD
         
         interface Describable {
           public function provideDescription(); 
@@ -137,6 +142,8 @@
         echo "</br>";
         echo $kramericaTV->provideDescription();
       
+=======
+>>>>>>> upstream/master
     ?>
     </p>
   </body>

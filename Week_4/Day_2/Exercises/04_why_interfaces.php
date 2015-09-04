@@ -4,7 +4,11 @@
   </head>
   <body>
     <p>
+<<<<<<< HEAD
     <?php
+=======
+    <?
+>>>>>>> upstream/master
         /**
          * So we want to create a feature that allows you to store your movies in our 'cloud'.
          *
@@ -37,6 +41,7 @@
         ///////////////////////////
         // Put your code here!
         ///////////////////////////
+<<<<<<< HEAD
         
         
         
@@ -139,6 +144,8 @@
         }
         
         
+=======
+>>>>>>> upstream/master
     ?>
     </p>
   </body>

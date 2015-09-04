@@ -14,13 +14,18 @@
      * Add three public functions to your class:
      *   getArea() : Calculate and return the area of the rectangle
      *   getPerimeter() : Calculate and return the perimeter of the rectangle
+<<<<<<< HEAD
      *   isSquare() : Return true if the rectangle is a square, false otherwise.
+=======
+     *   isSquare() : Return true of the rectangle is a square, false otherwise.
+>>>>>>> upstream/master
      */
 
 
     ///////////////////////////
     // Put your code here!
     ///////////////////////////
+<<<<<<< HEAD
     
   
     class Rectangle{
@@ -49,14 +54,14 @@
         
     }
 
+
     $width = 160;
     $height = 75;
-    
+
     echo "<h2>With a width of $width and a height of $height...</h2>";
 
     $r = new Rectangle($width, $height);
-    $r->width=$width;
-    $r->height=$height;
+
     echo '<p>The area of the rectangle is ' . $r->getArea() . '</p>';
     echo '<p>The perimeter of the rectangle is ' . $r->getPerimeter() . '</p>';
 

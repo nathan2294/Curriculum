@@ -40,6 +40,7 @@
     ///////////////////////////
     // Put your code here!
     ///////////////////////////
+
 class LivingThing{
          protected $name;
          protected $health;
@@ -119,6 +120,7 @@ class LivingThing{
     else {
         echo "<p>{$hero->getName()} was bested by the monsters. We are doomed.</p>";
     }
+
     
     $hero->attack($rat);
     echo "<br>";

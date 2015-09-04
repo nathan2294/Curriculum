@@ -13,6 +13,7 @@ Make the following markup and style changes:
     5 - make all of the list items in the ordered list sit on the same row/line
 
  */
+<<<<<<< HEAD
 .headline,
 .subheadline{
     display:inline;
@@ -30,3 +31,5 @@ Make the following markup and style changes:
     display:inline;
     padding:8px;
 }
+=======
+>>>>>>> upstream/master

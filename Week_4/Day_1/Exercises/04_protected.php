@@ -24,6 +24,7 @@
     ///////////////////////////
     // Put your code here!
     ///////////////////////////
+
         class LivingThing
         {
          protected $name;
@@ -63,6 +64,7 @@
     foreach ($monsters as $monster) {
         // Fix the line below!
         echo "<p>" . $monster->getName(). ": " . $monster->getHealth() . "</p>";
+
     }
 
     ?>

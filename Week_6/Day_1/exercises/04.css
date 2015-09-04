@@ -13,6 +13,7 @@ Make the following markup and style changes:
     5 - use only positioning to shift the last item in the ordered list up 4px and right 8px
 
  */
+<<<<<<< HEAD
 .headline{
     float:left;
     width:66%;
@@ -52,3 +53,5 @@ body{
     right:0;
     background-color:orange;
 }
+=======
+>>>>>>> upstream/master

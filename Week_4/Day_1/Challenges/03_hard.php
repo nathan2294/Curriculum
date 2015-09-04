@@ -25,6 +25,7 @@
     ///////////////////////////
     // Put your code here!
     ///////////////////////////
+<<<<<<< HEAD
         
          class ShoppingCart {
             public $name;

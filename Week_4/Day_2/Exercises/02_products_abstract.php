@@ -4,7 +4,11 @@
   </head>
   <body>
     <p>
+<<<<<<< HEAD
     <?php
+=======
+    <?
+>>>>>>> upstream/master
         /**
          * OVERVIEW:
          * So, our boss gave us a call and hated the fact that 2 pieces of clothing had such
@@ -84,6 +88,7 @@
         ///////////////////////////
         // Put your code here!
         ///////////////////////////
+<<<<<<< HEAD
         
         interface Describable {
           public function provideDescription(); 
@@ -149,6 +154,9 @@
         echo $kramericaTV->provideDescription();
         ?>
         
+=======
+        ?>
+>>>>>>> upstream/master
     </p>
   </body>
 </html>

@@ -45,6 +45,7 @@
         ///////////////////////////
         // Put your code here!
         ///////////////////////////
+<<<<<<< HEAD
         interface Describable {
           public function provideDescription(); 
         }
@@ -71,6 +72,8 @@
             
           }
         }
+=======
+>>>>>>> upstream/master
         ?>
     </p>
   </body>

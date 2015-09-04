@@ -60,6 +60,9 @@
             $this->price = $price;
         }    
     }
+
+
+
     $cart = new ShoppingCart();
     $cart->addItem(new Item('Cheap Book', 2.99));
     $cart->addItem(new Item('Expensive Book', 24.99));
